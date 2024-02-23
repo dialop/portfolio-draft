@@ -1,7 +1,7 @@
 .App {
-  text-align: center;
+  background-color: #121212; /* Or use a background image with animated shapes */
+  font-family: 'Roboto', sans-serif; /* Material-UI default font */
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
