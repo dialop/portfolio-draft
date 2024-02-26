@@ -21,7 +21,7 @@ function AboutSection() {
   };
 
   const boxStyle = {
-    height: '700px',
+    height: '900px',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
@@ -56,7 +56,7 @@ function AboutSection() {
 
   return (
     <motion.div ref={sectionRef} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
-      <Box sx={{ maxWidth: '78%', margin: 'auto', padding: theme.spacing(8, 2) }}>
+      <Box sx={{ maxWidth: '90%', margin: 'auto', padding: theme.spacing(8, 2) }}>
         <Grid container spacing={6}>
           {/* Large box */}
           <Grid item xs={12}>

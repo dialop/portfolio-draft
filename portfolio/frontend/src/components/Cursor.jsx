@@ -33,7 +33,7 @@ const Cursor = () => {
     default: {
       x: position.x - 16,
       y: position.y - 16,
-      backgroundColor: '#1E91D6', 
+      backgroundColor: 'rgba(255, 255, 255, 0.8)', 
       opacity: 1,
       transition: {
         type: 'spring',
